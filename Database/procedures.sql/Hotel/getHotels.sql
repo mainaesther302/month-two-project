@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE getHotels
+AS
+BEGIN
+   SELECT * FROM HotelTable
+   
+END;

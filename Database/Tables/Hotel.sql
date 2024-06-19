@@ -1,0 +1,7 @@
+CREATE TABLE HotelTable(
+    Id VARCHAR(255) PRIMARY KEY,
+    Name VARCHAR(255)  NOT NULL,
+    HLocation VARCHAR(255)   NOT NULL,
+    StarRating VARCHAR(255)   NOT NULL,
+    IsDeleted INT DEFAULT 0,
+)

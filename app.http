@@ -1,0 +1,61 @@
+
+POST http://localhost:5500/auth
+Content-Type: application/json
+{
+    "Name": "Hotel",
+    "Email":"mainaesther302@gmail.com",
+    "Password": "123456"
+}
+####
+POST http://localhost:5500/auth
+Content-Type: application/json
+
+{
+    "Name": "Hotel",
+    "Email":"mainaesther302@gmail.com",
+    "Password": "123456"
+}
+
+####
+GET http://localhost:5500/Hotel
+Content-Type: application/json
+
+{
+    
+    "Name": "OceanView",
+    "HLocation":"lamu",
+    "StarRating": "4"
+}
+
+####
+POST http://localhost:5500/Hotel
+Content-Type: application/json
+
+{
+    "Name": "OceanView",
+    "HLocation":"lamu",
+    "StarRating": "4"
+}
+
+######
+GET  http://localhost:5500/Tour
+
+
+
+
+
+#######
+PATCH  http://localhost:5500/Tour/51819570-d994-418b-8675-2f6be985b413
+Content-Type: application/json
+
+{
+     "Name": "Summervilla",
+    "Tdestination": "Nyali",
+    "Tdescription": "Good place",
+    "Tprice": 450
+}
+
+
+
+
+

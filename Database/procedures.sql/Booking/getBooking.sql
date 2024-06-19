@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE getBooking(@Id VARCHAR(255))
+AS
+BEGIN
+   SELECT * FROM bookingTable
+   WHERE Id=@Id
+END;

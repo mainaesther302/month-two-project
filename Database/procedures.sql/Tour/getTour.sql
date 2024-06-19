@@ -1,0 +1,7 @@
+
+CREATE OR ALTER PROCEDURE getTour(@Id VARCHAR(255))
+AS
+BEGIN
+   SELECT * FROM TourTables
+   WHERE Id=@Id
+END;

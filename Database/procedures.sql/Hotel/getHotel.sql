@@ -1,0 +1,7 @@
+
+CREATE OR ALTER PROCEDURE getHotel(@Id VARCHAR(255))
+AS
+BEGIN
+   SELECT * FROM HotelTable
+   WHERE Id=@Id
+END;
